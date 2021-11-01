@@ -9,7 +9,7 @@ function calculateCorrectAnswers(){
     let score=0;
     let index=0;
     const formResults=new FormData(quizForm);
-    for(let value of formResults.values){
+    for(let value of formResults.values()){
         if(value === correctAnswers[index]){
             score++;
         }
@@ -17,5 +17,6 @@ function calculateCorrectAnswers(){
     }
     ouputL2.innerText="your score is: "+score;
 }
+
 submitBtn.addEventListener("click",calculateCorrectAnswers);
 
