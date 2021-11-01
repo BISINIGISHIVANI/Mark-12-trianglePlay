@@ -24,13 +24,13 @@ nav{
     padding: 1.5rem;
     margin-bottom: 2rem;
 }
-.angle-container,.hypotenuse-container{
+.angle-container,.hypotenuse-container,.area-container{
     width:50%;
     margin:0 auto;
     display: flex;
     flex-direction: column;
 }
-.angle-input,.side-input{
+.angle-input,.side-input,.area-side{
     margin:1rem 0;
     padding: 0.3rem;
 }
@@ -51,7 +51,7 @@ nav{
 .gap{
     margin-bottom: 2rem;
 }
-#submit-btn,#hypotenuse-btn{
+#submit-btn,#hypotenuse-btn,#area-btn{
     width:50%;
 /* margin:0 auto; */
 padding: 0.3rem;
