@@ -43,17 +43,24 @@ nav{
     border-radius: 0.2rem;
 }
 
-#quiz-container{
+.quiz-form{
     width:50%;
     margin:0 auto;
+   
+}
+.gap{
+    margin-bottom: 20px;
+}
+#quiz-container{
+    word-spacing: 2px;
     border: 1px solid var(--primary-color);
     padding:2rem;
     border-radius: 0.3rem;
 }
-#submit-btn{
-    width:50%;
-    margin-left:0px;
+#quiz-container p{
+    padding: 1rem;
 }
+    
 a {
 	text-decoration: none;
 	color: var(--text-color);
