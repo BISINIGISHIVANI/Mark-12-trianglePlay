@@ -12,7 +12,7 @@ function calculateSumOfSides(a,b){
 function calculateHypotenuseOfTriangle(){
     const sumOfSides=calculateSumOfSides(Number(sides[0].value),Number(sides[1].value));
     const hypotenuse=Math.sqrt(sumOfSides);
-outputL3.innerText="The length of the hypotenuse is "+hypotenuse+"cm";
+outputL3.innerText ="The length of the hypotenuse is "+hypotenuse+"cm";
 }
 
 checkHypotenuseBtn.addEventListener("click",calculateHypotenuseOfTriangle);
